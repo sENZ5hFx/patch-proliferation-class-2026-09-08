@@ -1,0 +1,39 @@
+WINNING CLASS: Patch-Proliferation Class (PPC)
+novelty_cap 0.44 | coherence 0.73
+STRUCTURAL_GAP 1 | PENALIZED 10 | KILLED/ZEROED 3
+primary DARK_DIMENSION 36.62
+
+PPC RANKED
+----------
+   36.62  STRUCTURAL_GAP    DARK_DIMENSION          Outer Space
+   25.16  PENALIZED         POPIII_PATCH            Outer Space
+   22.23  PENALIZED         LCDM_BELIEF_SPLIT       Outer Space
+   20.03  PENALIZED         IMF_EXPORT              Outer Space
+   17.97  PENALIZED         IRON_MELT_EXPORT        Land / Deep Earth
+   15.60  PENALIZED         HYDROGEN_BUDGET_PATCH   Deep Ocean
+   14.92  PENALIZED         EARLY_DARK_ENERGY       Outer Space
+   11.38  PENALIZED         WHALE_VOWEL_EXPORT      Animal Behavior
+   11.05  PENALIZED         UNIFORMITARIAN_PATCH    Land Ecosystems
+   10.84  PENALIZED         NAUTILUS_EXPORT         Animal Behavior
+    5.70  PENALIZED         PLACEBO_PHARM           Human Neuroscience
+    0.00  ZEROED            DARK_OXYGEN             Deep Ocean
+    0.00  KILLED            HADAL_INCERTA           Deep Ocean
+    0.00  KILLED            CONSCIOUSNESS           Human Neuroscience
+
+EPC ITERATE
+-----------
+   14.40  PENALIZED         MW IMF → z≳5 galaxies
+   11.40  PENALIZED         Human phonology → sperm-whale codas
+   10.98  PENALIZED         Coleoid sentience battery → nautilus
+   10.16  PENALIZED         Iron melting curve → inner core temperature
+
+SUCCESSOR vs MIMIC
+------------------
+  MIMIC_LEANING     Dark dimension (Obied/Vafa/Bedroya/Wu)
+                   Independent probes have been run; unique hits are too few to promote the patch.
+  MIMIC             Early dark energy as H0 patch
+                   Existing degrees of freedom can reproduce the residual. Patch is not a successor.
+  UNTESTED_PATCH    Pop III mixed-mass candidate threshold (>25% metal-free)
+                   Unique predictions are named but not yet run. Default: treat as PPC until a unique probe fires.
+  PATCH_HOLDING     Bottom-heavy IMF as JWST-mass patch
+                   Unique hits, but data are still reduced through the old coordinate. PPC still holds.

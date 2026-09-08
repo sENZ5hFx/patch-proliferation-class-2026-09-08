@@ -1,0 +1,799 @@
+{
+  "session_id": "2026-09-08-ppc-patch-proliferation",
+  "timestamp": "2026-09-08T17:54:48.835927+00:00",
+  "winning_class": "Patch-Proliferation Class (PPC)",
+  "iterate_class": "Exported-Prior Class (EPC)",
+  "iterate2_class": "Successor-vs-Mimic gate",
+  "novelty_cap": 0.44,
+  "coherence": 0.73,
+  "counts": {
+    "STRUCTURAL_GAP": 1,
+    "PENALIZED": 10,
+    "KILLED_OR_ZEROED": 3
+  },
+  "primary": {
+    "id": "DARK_DIMENSION",
+    "realm": "Outer Space",
+    "name": "Dark dimension coupling dark energy \u00d7 dark matter",
+    "status": "STRUCTURAL_GAP",
+    "score": 36.62,
+    "penalty": 0.12,
+    "kill_reason": null,
+    "overlap": "TAC owns DM/DE identity. PPC is the coupling-as-patch, not the identity.",
+    "source": "Obied, Vafa, Bedroya, Wu 2025; WIRED 2026-09-07; DESI DR2 2025",
+    "claim": "DESI 2024/2025 prefers evolving (weakening) dark energy. Rather than retire \u039b as the coordinate, a 2019 'dark dimension' scenario (Obied, Vafa, Bedroya, Wu 2025) absorbs both DM and DE residuals by adding an extra compact dimension whose size sets both. WIRED/Quanta coverage 2026-09-07. The pipeline (\u039bCDM reduction of BAO+CMB+SNe) stays intact; the extra DOF is unobservable by construction.",
+    "discriminator": "Pre-register a unique dark-dimension prediction (e.g. a specific w(z) shape AND a DM coupling scale) that \u039bCDM+w0wa cannot mimic. If Rubin/Euclid/Roman fit w0wa without the extra dimension, PPC holds and the patch failed as successor. If the unique prediction is confirmed, PPC is wrong \u2014 it became a successor coordinate.",
+    "sense": "Vision (survey geometry) / Time (expansion history)",
+    "operators": {
+      "not_prior": 0.88,
+      "pipeline_intact": 0.95,
+      "unobservable_dof": 0.92,
+      "majority_lost": 0.8,
+      "falsifiable": 0.7,
+      "sourced": 0.85,
+      "freshness": 0.95
+    }
+  },
+  "gaps": [
+    {
+      "id": "DARK_DIMENSION",
+      "realm": "Outer Space",
+      "name": "Dark dimension coupling dark energy \u00d7 dark matter",
+      "status": "STRUCTURAL_GAP",
+      "score": 36.62,
+      "penalty": 0.12,
+      "kill_reason": null,
+      "overlap": "TAC owns DM/DE identity. PPC is the coupling-as-patch, not the identity.",
+      "source": "Obied, Vafa, Bedroya, Wu 2025; WIRED 2026-09-07; DESI DR2 2025",
+      "claim": "DESI 2024/2025 prefers evolving (weakening) dark energy. Rather than retire \u039b as the coordinate, a 2019 'dark dimension' scenario (Obied, Vafa, Bedroya, Wu 2025) absorbs both DM and DE residuals by adding an extra compact dimension whose size sets both. WIRED/Quanta coverage 2026-09-07. The pipeline (\u039bCDM reduction of BAO+CMB+SNe) stays intact; the extra DOF is unobservable by construction.",
+      "discriminator": "Pre-register a unique dark-dimension prediction (e.g. a specific w(z) shape AND a DM coupling scale) that \u039bCDM+w0wa cannot mimic. If Rubin/Euclid/Roman fit w0wa without the extra dimension, PPC holds and the patch failed as successor. If the unique prediction is confirmed, PPC is wrong \u2014 it became a successor coordinate.",
+      "sense": "Vision (survey geometry) / Time (expansion history)",
+      "operators": {
+        "not_prior": 0.88,
+        "pipeline_intact": 0.95,
+        "unobservable_dof": 0.92,
+        "majority_lost": 0.8,
+        "falsifiable": 0.7,
+        "sourced": 0.85,
+        "freshness": 0.95
+      }
+    }
+  ],
+  "penalized": [
+    {
+      "id": "POPIII_PATCH",
+      "realm": "Outer Space",
+      "name": "Pop III still unseen; metal-line diagnostics as patch",
+      "status": "PENALIZED",
+      "score": 25.16,
+      "penalty": 0.22,
+      "kill_reason": null,
+      "overlap": "Undersampling of first stars is the naive class. PPC is the candidate-threshold that lets the coordinate survive without a pristine object.",
+      "source": "arXiv:2607.00167 (2026-08); ApJL 2025 metal-polluted Pop III; Siegel 2025-12",
+      "claim": "No pristine Pop III stars known as of mid-2026 (Siegel; CSI Sesto 2026). JWST sees metal-polluted systems at highest z. New UV-metal diagnostics (ApJL 2025) select 'Pop III candidates' with >25% metal-free mass \u2014 a patch that keeps the Pop III coordinate without a metal-free object.",
+      "discriminator": "A pre-registered 'zero metals, He II, no AGN mimic' object. If the next three years only yield mixed-mass candidates, PPC holds. One clean Pop III galaxy kills this instance.",
+      "sense": "Vision",
+      "operators": {
+        "not_prior": 0.68,
+        "pipeline_intact": 0.85,
+        "unobservable_dof": 0.55,
+        "majority_lost": 0.4,
+        "falsifiable": 0.7,
+        "sourced": 0.85,
+        "freshness": 0.75
+      }
+    },
+    {
+      "id": "LCDM_BELIEF_SPLIT",
+      "realm": "Outer Space",
+      "name": "\u039bCDM operational default after majority-loss (physicists survey)",
+      "status": "PENALIZED",
+      "score": 22.23,
+      "penalty": 0.38,
+      "kill_reason": null,
+      "overlap": "FAC owns Hubble-tension verdict failure. This is belief vs pipeline, not a discriminator.",
+      "source": "arXiv:2605.11058; SciTechDaily / Waterloo / Perimeter 2026-09-08",
+      "claim": "Afshordi, Halper, Rini, Schirber, arXiv:2605.11058 (10 May 2026), press 2026-09-08: \u039bCDM failed to gain majority support among physicists surveyed. Inflation 51% (bare majority). String 19%, LQG 12%, gravity unquantized 18%. DM: 21% combination, 17% low-mass particles, 12% modified gravity. Authors: 'scientific truth is not decided by a vote.' Sample is 'physicists worldwide' \u2014 not demonstrated to be working cosmologists.",
+      "discriminator": "Re-cut the survey on self-identified cosmologists only. If \u039bCDM then has majority, this instance dies (population error). If it still lacks majority, measure the fraction of 2026 DESI/Euclid/Rubin papers whose headline result is reported as a \u039bCDM residual. PPC holds if that fraction stays high while belief-majority stays lost.",
+      "sense": "Time (who still reduces to the coordinate)",
+      "operators": {
+        "not_prior": 0.82,
+        "pipeline_intact": 0.9,
+        "unobservable_dof": 0.4,
+        "majority_lost": 0.85,
+        "falsifiable": 0.55,
+        "sourced": 0.8,
+        "freshness": 1.0
+      }
+    },
+    {
+      "id": "IMF_EXPORT",
+      "realm": "Outer Space",
+      "name": "Milky Way IMF exported to z\u22735 galaxies",
+      "status": "PENALIZED",
+      "score": 20.03,
+      "penalty": 0.36,
+      "kill_reason": null,
+      "overlap": "Closer to Exported-Prior (iterate). Observable, so weak unobservable-DOF.",
+      "source": "Nature Astronomy 2026-08-18; ApJL 1006 L41 (2026-07-24)",
+      "claim": "JWST 'impossibly early' massive galaxies assumed a MW-like IMF. van Dokkum et al. / Nature Astronomy 2026-08-18: oldest galaxy (z_form>5) most bottom-heavy; masses may rise by ~4\u00b11. A 2026-07-24 ApJL paper claims the crisis is a reionization degeneracy, not mass. Two patches compete to save the formation-efficiency coordinate.",
+      "discriminator": "JWST Cycles 3\u20134 spectra of the same objects: if bottom-heavy IMF is measured, the 'crisis' was calibration export (EPC), not new physics. If IMF is MW-like and masses stay high, PPC/EPC both fail and formation physics must change.",
+      "sense": "Vision",
+      "operators": {
+        "not_prior": 0.62,
+        "pipeline_intact": 0.8,
+        "unobservable_dof": 0.35,
+        "majority_lost": 0.5,
+        "falsifiable": 0.85,
+        "sourced": 0.9,
+        "freshness": 0.7
+      }
+    },
+    {
+      "id": "IRON_MELT_EXPORT",
+      "realm": "Land / Deep Earth",
+      "name": "Iron melting-curve geometry exported to the core",
+      "status": "PENALIZED",
+      "score": 17.97,
+      "penalty": 0.4,
+      "kill_reason": null,
+      "overlap": "NCR owns 'named cause insufficient'. PPC only if adding C/O/Si/S is a patch that saves the iron-coordinate rather than a measurement.",
+      "source": "Science/AAAS Goldschmidt report; Nature Communications 2025 (Fe-C nucleation)",
+      "claim": "New-core paradox: field \u22654 Gyr, inner core often modeled ~0.5 Gyr. Goldschmidt 2026: iron melts >1000\u00b0C cooler under corelike conditions than longstanding curves. The 'pure iron, old melting curve' coordinate is patched by light elements (C ~3.8% for nucleation, Oxford 2025 Nature Communications) rather than retired.",
+      "discriminator": "Independent melting-curve labs must agree on the cooler curve. If they do, the paradox was calibration export (EPC), not a new energy source. If they do not, PPC does not apply (it is FAC).",
+      "sense": "Magnetism / Pressure",
+      "operators": {
+        "not_prior": 0.6,
+        "pipeline_intact": 0.85,
+        "unobservable_dof": 0.4,
+        "majority_lost": 0.45,
+        "falsifiable": 0.7,
+        "sourced": 0.8,
+        "freshness": 0.65
+      }
+    },
+    {
+      "id": "HYDROGEN_BUDGET_PATCH",
+      "realm": "Deep Ocean",
+      "name": "Kunlun hydrogen field as patch to the global abiotic H2 budget",
+      "status": "PENALIZED",
+      "score": 15.6,
+      "penalty": 0.42,
+      "kill_reason": null,
+      "overlap": "Undersampling (more vents). PPC only on the *budget equation* that absorbs each new field as a patch term.",
+      "source": "EurekAlert/IOCAS 2025-08-08; Marine Technology News 2026-09-08 (Doldrums)",
+      "claim": "Kunlun hydrothermal system (Science Advances 2025-08-08): estimated 4.8e11 mol/yr H2, \u22655% of global submarine abiotic hydrogen from one field. The 'diffuse, well-mixed abiotic hydrogen' coordinate is patched by adding a giant point source rather than rebuilding the inventory method. Doldrums hybrid vents (Schmidt / MBARI, reported 2026-09-08) further imply transform faults are missing terms, not extra patches.",
+      "discriminator": "If a systematic transform-fault survey predicts Kunlun-class flux a priori, this is undersampling. If each new field is added post hoc to keep a pre-2015 budget form, PPC holds.",
+      "sense": "Chemical",
+      "operators": {
+        "not_prior": 0.55,
+        "pipeline_intact": 0.7,
+        "unobservable_dof": 0.2,
+        "majority_lost": 0.35,
+        "falsifiable": 0.65,
+        "sourced": 0.85,
+        "freshness": 0.9
+      }
+    },
+    {
+      "id": "EARLY_DARK_ENERGY",
+      "realm": "Outer Space",
+      "name": "Early dark energy / extra neutrinos as H0 patches",
+      "status": "PENALIZED",
+      "score": 14.92,
+      "penalty": 0.55,
+      "kill_reason": null,
+      "overlap": "FAC primary for Hubble tension. PPC only on the patch-industry, not the tension.",
+      "source": "H0DN A&A April 2026; CosmoVerse White Paper 2025; Poulin EDE literature",
+      "claim": "Hubble tension (local H0 73.50\u00b10.81, H0DN 2026-04 vs Planck ~67) remains FAC. EDE, extra Neff, and similar pre-recombination patches add DOF to keep the \u039bCDM pipeline. They are the industry of residue-absorbers.",
+      "discriminator": "If a patch is required by independent probes (not just H0), it is a successor. If it only fits H0 and worsens S8, it is PPC.",
+      "sense": "Time",
+      "operators": {
+        "not_prior": 0.45,
+        "pipeline_intact": 0.9,
+        "unobservable_dof": 0.7,
+        "majority_lost": 0.7,
+        "falsifiable": 0.75,
+        "sourced": 0.85,
+        "freshness": 0.55
+      }
+    },
+    {
+      "id": "WHALE_VOWEL_EXPORT",
+      "realm": "Animal Behavior",
+      "name": "Human phonetic inventory exported to sperm-whale codas",
+      "status": "PENALIZED",
+      "score": 11.38,
+      "penalty": 0.5,
+      "kill_reason": null,
+      "overlap": "EPC iterate. Not TAC. Consciousness refused \u2014 do not smuggle sentience.",
+      "source": "Project CETI; Proceedings B 2026-04; NYT 2025-11-23; Guardian 2026-04-15",
+      "claim": "Project CETI 2025\u20132026: sperm-whale clicks described as vowels, diphthongs, rubato, ornamentation \u2014 terms from human phonology. The finding of combinatorial structure is sourced. The *labels* are an exported prior. Danger: dismissing a real homology. Scored as EPC iterate, weak PPC (the coordinate 'animal communication is not language' is being patched by importing our phonology rather than building theirs).",
+      "discriminator": "Hold out a naive listener (no human-phonetic labels) + a model with whale-native features only. If combinatorial structure survives without vowel/rubato labels, the structure is real and EPC was about naming. If structure collapses, PPC/EPC holds: we patched 'not language' by importing ours.",
+      "sense": "Hearing",
+      "operators": {
+        "not_prior": 0.5,
+        "pipeline_intact": 0.6,
+        "unobservable_dof": 0.15,
+        "majority_lost": 0.3,
+        "falsifiable": 0.5,
+        "sourced": 0.85,
+        "freshness": 0.6
+      }
+    },
+    {
+      "id": "UNIFORMITARIAN_PATCH",
+      "realm": "Land Ecosystems",
+      "name": "Lost seafloor / stalled slab as patch to simple subduction",
+      "status": "PENALIZED",
+      "score": 11.05,
+      "penalty": 0.5,
+      "kill_reason": null,
+      "overlap": "NCR / Undersampling of mantle.",
+      "source": "Interesting Engineering 2025 roundup; tomography literature late 2024",
+      "claim": "Tomography candidate for 'lost seafloor' stalled in the mantle transition zone east of the East Pacific Rise. Each anomalous slab is added to keep the simple-subduction coordinate rather than changing how plates are allowed to founder.",
+      "discriminator": "If geodynamic models predicted stall locations before the tomography, not PPC.",
+      "sense": "Pressure / Time",
+      "operators": {
+        "not_prior": 0.4,
+        "pipeline_intact": 0.7,
+        "unobservable_dof": 0.45,
+        "majority_lost": 0.25,
+        "falsifiable": 0.5,
+        "sourced": 0.55,
+        "freshness": 0.35
+      }
+    },
+    {
+      "id": "NAUTILUS_EXPORT",
+      "realm": "Animal Behavior",
+      "name": "Coleoid sentience criteria exported to nautilus",
+      "status": "PENALIZED",
+      "score": 10.84,
+      "penalty": 0.55,
+      "kill_reason": null,
+      "overlap": "Undersampling. Authors own the gap. Not a patch to save a coordinate.",
+      "source": "Schnell et al., Biological Reviews 2026 (doi 10.1002/brv.70125)",
+      "claim": "Schnell 2026 Biological Reviews: octopus/cuttlefish meet 6/8 sentience criteria; nautilus 1/8, and every miss is insufficient evidence, never a demonstrated fail. The coleoid coordinate is being used as the reduction target for a lineage that diverged ~500 Myr earlier.",
+      "discriminator": "A nautilus-first criterion set, pre-registered, that is allowed to return 'unknown' without importing coleoid scores.",
+      "sense": "Touch / Chemical",
+      "operators": {
+        "not_prior": 0.48,
+        "pipeline_intact": 0.55,
+        "unobservable_dof": 0.1,
+        "majority_lost": 0.2,
+        "falsifiable": 0.8,
+        "sourced": 0.9,
+        "freshness": 0.85
+      }
+    },
+    {
+      "id": "PLACEBO_PHARM",
+      "realm": "Human Neuroscience",
+      "name": "Placebo as residual patch on the drug-coordinate",
+      "status": "PENALIZED",
+      "score": 5.7,
+      "penalty": 0.7,
+      "kill_reason": null,
+      "overlap": "NCR + prior art. Consciousness adjacent \u2014 do not load-bear.",
+      "source": "Standard medical literature; not 2026-fresh as a class object",
+      "claim": "Pharmacology's operational coordinate is molecule\u2192receptor\u2192effect. Placebo/nocebo residuals are absorbed as 'context effects' without retiring the coordinate. Prior art is large. Consciousness refused.",
+      "discriminator": "Not run this session.",
+      "sense": "Chemical / Time",
+      "operators": {
+        "not_prior": 0.25,
+        "pipeline_intact": 0.8,
+        "unobservable_dof": 0.3,
+        "majority_lost": 0.2,
+        "falsifiable": 0.4,
+        "sourced": 0.7,
+        "freshness": 0.1
+      }
+    }
+  ],
+  "killed": [
+    {
+      "id": "DARK_OXYGEN",
+      "realm": "Deep Ocean",
+      "name": "Nodule 'dark oxygen' as abiotic O2 patch",
+      "status": "ZEROED",
+      "score": 0.0,
+      "penalty": 1.0,
+      "kill_reason": "ZEROED by archive (FAC+TAC). Contested; unreplicated; possible artefact.",
+      "overlap": "ZERO control.",
+      "source": "Nature Geoscience 2024 + Editor's Note 2026-04-08; Front. Mar. Sci. 2025",
+      "claim": "Sweetman et al. Nature Geoscience 2024. Editor's Note 8 Apr 2026. Frontiers Marine Science 2025 critique. Re-analysis 2026: O2 rose regardless of nodule presence. Archive ZERO. Do not load-bear.",
+      "discriminator": "Not run. Independent replication with pre-registered nodule-absent controls would be FAC, not PPC.",
+      "sense": "Chemical",
+      "operators": {
+        "not_prior": 0.1,
+        "pipeline_intact": 0.2,
+        "unobservable_dof": 0.2,
+        "majority_lost": 0.2,
+        "falsifiable": 0.9,
+        "sourced": 0.9,
+        "freshness": 0.4
+      }
+    },
+    {
+      "id": "HADAL_INCERTA",
+      "realm": "Deep Ocean",
+      "name": "Hadal Animalia incerta sedis",
+      "status": "KILLED",
+      "score": 0.0,
+      "penalty": 1.0,
+      "kill_reason": "KILLED as PPC \u2014 already DIC primary. Not a patch to a coordinate.",
+      "overlap": "DIC.",
+      "source": "Jamieson / Swanborn et al. Biodiversity Data Journal 2026",
+      "claim": "Filmed twice to 9,137 m. Identity closed only by consuming capture. DIC primary 2026-09-06.",
+      "discriminator": "See 2026-09-06 session.",
+      "sense": "Vision / Pressure",
+      "operators": {
+        "not_prior": 0.05,
+        "pipeline_intact": 0.0,
+        "unobservable_dof": 0.0,
+        "majority_lost": 0.0,
+        "falsifiable": 0.8,
+        "sourced": 0.9,
+        "freshness": 0.4
+      }
+    },
+    {
+      "id": "CONSCIOUSNESS",
+      "realm": "Human Neuroscience",
+      "name": "Hard problem of consciousness",
+      "status": "KILLED",
+      "score": 0.0,
+      "penalty": 1.0,
+      "kill_reason": "KILLED \u2014 archive refused. Do not smuggle via NCC 'patches'.",
+      "overlap": "Refused.",
+      "source": "archive control",
+      "claim": "Archive-refused. Not scored as PPC.",
+      "discriminator": "None.",
+      "sense": "\u2014",
+      "operators": {
+        "not_prior": 0.0,
+        "pipeline_intact": 0.0,
+        "unobservable_dof": 0.0,
+        "majority_lost": 0.0,
+        "falsifiable": 0.0,
+        "sourced": 0.0,
+        "freshness": 0.0
+      }
+    }
+  ],
+  "all_ppc": [
+    {
+      "id": "DARK_DIMENSION",
+      "realm": "Outer Space",
+      "name": "Dark dimension coupling dark energy \u00d7 dark matter",
+      "status": "STRUCTURAL_GAP",
+      "score": 36.62,
+      "penalty": 0.12,
+      "kill_reason": null,
+      "overlap": "TAC owns DM/DE identity. PPC is the coupling-as-patch, not the identity.",
+      "source": "Obied, Vafa, Bedroya, Wu 2025; WIRED 2026-09-07; DESI DR2 2025",
+      "claim": "DESI 2024/2025 prefers evolving (weakening) dark energy. Rather than retire \u039b as the coordinate, a 2019 'dark dimension' scenario (Obied, Vafa, Bedroya, Wu 2025) absorbs both DM and DE residuals by adding an extra compact dimension whose size sets both. WIRED/Quanta coverage 2026-09-07. The pipeline (\u039bCDM reduction of BAO+CMB+SNe) stays intact; the extra DOF is unobservable by construction.",
+      "discriminator": "Pre-register a unique dark-dimension prediction (e.g. a specific w(z) shape AND a DM coupling scale) that \u039bCDM+w0wa cannot mimic. If Rubin/Euclid/Roman fit w0wa without the extra dimension, PPC holds and the patch failed as successor. If the unique prediction is confirmed, PPC is wrong \u2014 it became a successor coordinate.",
+      "sense": "Vision (survey geometry) / Time (expansion history)",
+      "operators": {
+        "not_prior": 0.88,
+        "pipeline_intact": 0.95,
+        "unobservable_dof": 0.92,
+        "majority_lost": 0.8,
+        "falsifiable": 0.7,
+        "sourced": 0.85,
+        "freshness": 0.95
+      }
+    },
+    {
+      "id": "POPIII_PATCH",
+      "realm": "Outer Space",
+      "name": "Pop III still unseen; metal-line diagnostics as patch",
+      "status": "PENALIZED",
+      "score": 25.16,
+      "penalty": 0.22,
+      "kill_reason": null,
+      "overlap": "Undersampling of first stars is the naive class. PPC is the candidate-threshold that lets the coordinate survive without a pristine object.",
+      "source": "arXiv:2607.00167 (2026-08); ApJL 2025 metal-polluted Pop III; Siegel 2025-12",
+      "claim": "No pristine Pop III stars known as of mid-2026 (Siegel; CSI Sesto 2026). JWST sees metal-polluted systems at highest z. New UV-metal diagnostics (ApJL 2025) select 'Pop III candidates' with >25% metal-free mass \u2014 a patch that keeps the Pop III coordinate without a metal-free object.",
+      "discriminator": "A pre-registered 'zero metals, He II, no AGN mimic' object. If the next three years only yield mixed-mass candidates, PPC holds. One clean Pop III galaxy kills this instance.",
+      "sense": "Vision",
+      "operators": {
+        "not_prior": 0.68,
+        "pipeline_intact": 0.85,
+        "unobservable_dof": 0.55,
+        "majority_lost": 0.4,
+        "falsifiable": 0.7,
+        "sourced": 0.85,
+        "freshness": 0.75
+      }
+    },
+    {
+      "id": "LCDM_BELIEF_SPLIT",
+      "realm": "Outer Space",
+      "name": "\u039bCDM operational default after majority-loss (physicists survey)",
+      "status": "PENALIZED",
+      "score": 22.23,
+      "penalty": 0.38,
+      "kill_reason": null,
+      "overlap": "FAC owns Hubble-tension verdict failure. This is belief vs pipeline, not a discriminator.",
+      "source": "arXiv:2605.11058; SciTechDaily / Waterloo / Perimeter 2026-09-08",
+      "claim": "Afshordi, Halper, Rini, Schirber, arXiv:2605.11058 (10 May 2026), press 2026-09-08: \u039bCDM failed to gain majority support among physicists surveyed. Inflation 51% (bare majority). String 19%, LQG 12%, gravity unquantized 18%. DM: 21% combination, 17% low-mass particles, 12% modified gravity. Authors: 'scientific truth is not decided by a vote.' Sample is 'physicists worldwide' \u2014 not demonstrated to be working cosmologists.",
+      "discriminator": "Re-cut the survey on self-identified cosmologists only. If \u039bCDM then has majority, this instance dies (population error). If it still lacks majority, measure the fraction of 2026 DESI/Euclid/Rubin papers whose headline result is reported as a \u039bCDM residual. PPC holds if that fraction stays high while belief-majority stays lost.",
+      "sense": "Time (who still reduces to the coordinate)",
+      "operators": {
+        "not_prior": 0.82,
+        "pipeline_intact": 0.9,
+        "unobservable_dof": 0.4,
+        "majority_lost": 0.85,
+        "falsifiable": 0.55,
+        "sourced": 0.8,
+        "freshness": 1.0
+      }
+    },
+    {
+      "id": "IMF_EXPORT",
+      "realm": "Outer Space",
+      "name": "Milky Way IMF exported to z\u22735 galaxies",
+      "status": "PENALIZED",
+      "score": 20.03,
+      "penalty": 0.36,
+      "kill_reason": null,
+      "overlap": "Closer to Exported-Prior (iterate). Observable, so weak unobservable-DOF.",
+      "source": "Nature Astronomy 2026-08-18; ApJL 1006 L41 (2026-07-24)",
+      "claim": "JWST 'impossibly early' massive galaxies assumed a MW-like IMF. van Dokkum et al. / Nature Astronomy 2026-08-18: oldest galaxy (z_form>5) most bottom-heavy; masses may rise by ~4\u00b11. A 2026-07-24 ApJL paper claims the crisis is a reionization degeneracy, not mass. Two patches compete to save the formation-efficiency coordinate.",
+      "discriminator": "JWST Cycles 3\u20134 spectra of the same objects: if bottom-heavy IMF is measured, the 'crisis' was calibration export (EPC), not new physics. If IMF is MW-like and masses stay high, PPC/EPC both fail and formation physics must change.",
+      "sense": "Vision",
+      "operators": {
+        "not_prior": 0.62,
+        "pipeline_intact": 0.8,
+        "unobservable_dof": 0.35,
+        "majority_lost": 0.5,
+        "falsifiable": 0.85,
+        "sourced": 0.9,
+        "freshness": 0.7
+      }
+    },
+    {
+      "id": "IRON_MELT_EXPORT",
+      "realm": "Land / Deep Earth",
+      "name": "Iron melting-curve geometry exported to the core",
+      "status": "PENALIZED",
+      "score": 17.97,
+      "penalty": 0.4,
+      "kill_reason": null,
+      "overlap": "NCR owns 'named cause insufficient'. PPC only if adding C/O/Si/S is a patch that saves the iron-coordinate rather than a measurement.",
+      "source": "Science/AAAS Goldschmidt report; Nature Communications 2025 (Fe-C nucleation)",
+      "claim": "New-core paradox: field \u22654 Gyr, inner core often modeled ~0.5 Gyr. Goldschmidt 2026: iron melts >1000\u00b0C cooler under corelike conditions than longstanding curves. The 'pure iron, old melting curve' coordinate is patched by light elements (C ~3.8% for nucleation, Oxford 2025 Nature Communications) rather than retired.",
+      "discriminator": "Independent melting-curve labs must agree on the cooler curve. If they do, the paradox was calibration export (EPC), not a new energy source. If they do not, PPC does not apply (it is FAC).",
+      "sense": "Magnetism / Pressure",
+      "operators": {
+        "not_prior": 0.6,
+        "pipeline_intact": 0.85,
+        "unobservable_dof": 0.4,
+        "majority_lost": 0.45,
+        "falsifiable": 0.7,
+        "sourced": 0.8,
+        "freshness": 0.65
+      }
+    },
+    {
+      "id": "HYDROGEN_BUDGET_PATCH",
+      "realm": "Deep Ocean",
+      "name": "Kunlun hydrogen field as patch to the global abiotic H2 budget",
+      "status": "PENALIZED",
+      "score": 15.6,
+      "penalty": 0.42,
+      "kill_reason": null,
+      "overlap": "Undersampling (more vents). PPC only on the *budget equation* that absorbs each new field as a patch term.",
+      "source": "EurekAlert/IOCAS 2025-08-08; Marine Technology News 2026-09-08 (Doldrums)",
+      "claim": "Kunlun hydrothermal system (Science Advances 2025-08-08): estimated 4.8e11 mol/yr H2, \u22655% of global submarine abiotic hydrogen from one field. The 'diffuse, well-mixed abiotic hydrogen' coordinate is patched by adding a giant point source rather than rebuilding the inventory method. Doldrums hybrid vents (Schmidt / MBARI, reported 2026-09-08) further imply transform faults are missing terms, not extra patches.",
+      "discriminator": "If a systematic transform-fault survey predicts Kunlun-class flux a priori, this is undersampling. If each new field is added post hoc to keep a pre-2015 budget form, PPC holds.",
+      "sense": "Chemical",
+      "operators": {
+        "not_prior": 0.55,
+        "pipeline_intact": 0.7,
+        "unobservable_dof": 0.2,
+        "majority_lost": 0.35,
+        "falsifiable": 0.65,
+        "sourced": 0.85,
+        "freshness": 0.9
+      }
+    },
+    {
+      "id": "EARLY_DARK_ENERGY",
+      "realm": "Outer Space",
+      "name": "Early dark energy / extra neutrinos as H0 patches",
+      "status": "PENALIZED",
+      "score": 14.92,
+      "penalty": 0.55,
+      "kill_reason": null,
+      "overlap": "FAC primary for Hubble tension. PPC only on the patch-industry, not the tension.",
+      "source": "H0DN A&A April 2026; CosmoVerse White Paper 2025; Poulin EDE literature",
+      "claim": "Hubble tension (local H0 73.50\u00b10.81, H0DN 2026-04 vs Planck ~67) remains FAC. EDE, extra Neff, and similar pre-recombination patches add DOF to keep the \u039bCDM pipeline. They are the industry of residue-absorbers.",
+      "discriminator": "If a patch is required by independent probes (not just H0), it is a successor. If it only fits H0 and worsens S8, it is PPC.",
+      "sense": "Time",
+      "operators": {
+        "not_prior": 0.45,
+        "pipeline_intact": 0.9,
+        "unobservable_dof": 0.7,
+        "majority_lost": 0.7,
+        "falsifiable": 0.75,
+        "sourced": 0.85,
+        "freshness": 0.55
+      }
+    },
+    {
+      "id": "WHALE_VOWEL_EXPORT",
+      "realm": "Animal Behavior",
+      "name": "Human phonetic inventory exported to sperm-whale codas",
+      "status": "PENALIZED",
+      "score": 11.38,
+      "penalty": 0.5,
+      "kill_reason": null,
+      "overlap": "EPC iterate. Not TAC. Consciousness refused \u2014 do not smuggle sentience.",
+      "source": "Project CETI; Proceedings B 2026-04; NYT 2025-11-23; Guardian 2026-04-15",
+      "claim": "Project CETI 2025\u20132026: sperm-whale clicks described as vowels, diphthongs, rubato, ornamentation \u2014 terms from human phonology. The finding of combinatorial structure is sourced. The *labels* are an exported prior. Danger: dismissing a real homology. Scored as EPC iterate, weak PPC (the coordinate 'animal communication is not language' is being patched by importing our phonology rather than building theirs).",
+      "discriminator": "Hold out a naive listener (no human-phonetic labels) + a model with whale-native features only. If combinatorial structure survives without vowel/rubato labels, the structure is real and EPC was about naming. If structure collapses, PPC/EPC holds: we patched 'not language' by importing ours.",
+      "sense": "Hearing",
+      "operators": {
+        "not_prior": 0.5,
+        "pipeline_intact": 0.6,
+        "unobservable_dof": 0.15,
+        "majority_lost": 0.3,
+        "falsifiable": 0.5,
+        "sourced": 0.85,
+        "freshness": 0.6
+      }
+    },
+    {
+      "id": "UNIFORMITARIAN_PATCH",
+      "realm": "Land Ecosystems",
+      "name": "Lost seafloor / stalled slab as patch to simple subduction",
+      "status": "PENALIZED",
+      "score": 11.05,
+      "penalty": 0.5,
+      "kill_reason": null,
+      "overlap": "NCR / Undersampling of mantle.",
+      "source": "Interesting Engineering 2025 roundup; tomography literature late 2024",
+      "claim": "Tomography candidate for 'lost seafloor' stalled in the mantle transition zone east of the East Pacific Rise. Each anomalous slab is added to keep the simple-subduction coordinate rather than changing how plates are allowed to founder.",
+      "discriminator": "If geodynamic models predicted stall locations before the tomography, not PPC.",
+      "sense": "Pressure / Time",
+      "operators": {
+        "not_prior": 0.4,
+        "pipeline_intact": 0.7,
+        "unobservable_dof": 0.45,
+        "majority_lost": 0.25,
+        "falsifiable": 0.5,
+        "sourced": 0.55,
+        "freshness": 0.35
+      }
+    },
+    {
+      "id": "NAUTILUS_EXPORT",
+      "realm": "Animal Behavior",
+      "name": "Coleoid sentience criteria exported to nautilus",
+      "status": "PENALIZED",
+      "score": 10.84,
+      "penalty": 0.55,
+      "kill_reason": null,
+      "overlap": "Undersampling. Authors own the gap. Not a patch to save a coordinate.",
+      "source": "Schnell et al., Biological Reviews 2026 (doi 10.1002/brv.70125)",
+      "claim": "Schnell 2026 Biological Reviews: octopus/cuttlefish meet 6/8 sentience criteria; nautilus 1/8, and every miss is insufficient evidence, never a demonstrated fail. The coleoid coordinate is being used as the reduction target for a lineage that diverged ~500 Myr earlier.",
+      "discriminator": "A nautilus-first criterion set, pre-registered, that is allowed to return 'unknown' without importing coleoid scores.",
+      "sense": "Touch / Chemical",
+      "operators": {
+        "not_prior": 0.48,
+        "pipeline_intact": 0.55,
+        "unobservable_dof": 0.1,
+        "majority_lost": 0.2,
+        "falsifiable": 0.8,
+        "sourced": 0.9,
+        "freshness": 0.85
+      }
+    },
+    {
+      "id": "PLACEBO_PHARM",
+      "realm": "Human Neuroscience",
+      "name": "Placebo as residual patch on the drug-coordinate",
+      "status": "PENALIZED",
+      "score": 5.7,
+      "penalty": 0.7,
+      "kill_reason": null,
+      "overlap": "NCR + prior art. Consciousness adjacent \u2014 do not load-bear.",
+      "source": "Standard medical literature; not 2026-fresh as a class object",
+      "claim": "Pharmacology's operational coordinate is molecule\u2192receptor\u2192effect. Placebo/nocebo residuals are absorbed as 'context effects' without retiring the coordinate. Prior art is large. Consciousness refused.",
+      "discriminator": "Not run this session.",
+      "sense": "Chemical / Time",
+      "operators": {
+        "not_prior": 0.25,
+        "pipeline_intact": 0.8,
+        "unobservable_dof": 0.3,
+        "majority_lost": 0.2,
+        "falsifiable": 0.4,
+        "sourced": 0.7,
+        "freshness": 0.1
+      }
+    },
+    {
+      "id": "DARK_OXYGEN",
+      "realm": "Deep Ocean",
+      "name": "Nodule 'dark oxygen' as abiotic O2 patch",
+      "status": "ZEROED",
+      "score": 0.0,
+      "penalty": 1.0,
+      "kill_reason": "ZEROED by archive (FAC+TAC). Contested; unreplicated; possible artefact.",
+      "overlap": "ZERO control.",
+      "source": "Nature Geoscience 2024 + Editor's Note 2026-04-08; Front. Mar. Sci. 2025",
+      "claim": "Sweetman et al. Nature Geoscience 2024. Editor's Note 8 Apr 2026. Frontiers Marine Science 2025 critique. Re-analysis 2026: O2 rose regardless of nodule presence. Archive ZERO. Do not load-bear.",
+      "discriminator": "Not run. Independent replication with pre-registered nodule-absent controls would be FAC, not PPC.",
+      "sense": "Chemical",
+      "operators": {
+        "not_prior": 0.1,
+        "pipeline_intact": 0.2,
+        "unobservable_dof": 0.2,
+        "majority_lost": 0.2,
+        "falsifiable": 0.9,
+        "sourced": 0.9,
+        "freshness": 0.4
+      }
+    },
+    {
+      "id": "HADAL_INCERTA",
+      "realm": "Deep Ocean",
+      "name": "Hadal Animalia incerta sedis",
+      "status": "KILLED",
+      "score": 0.0,
+      "penalty": 1.0,
+      "kill_reason": "KILLED as PPC \u2014 already DIC primary. Not a patch to a coordinate.",
+      "overlap": "DIC.",
+      "source": "Jamieson / Swanborn et al. Biodiversity Data Journal 2026",
+      "claim": "Filmed twice to 9,137 m. Identity closed only by consuming capture. DIC primary 2026-09-06.",
+      "discriminator": "See 2026-09-06 session.",
+      "sense": "Vision / Pressure",
+      "operators": {
+        "not_prior": 0.05,
+        "pipeline_intact": 0.0,
+        "unobservable_dof": 0.0,
+        "majority_lost": 0.0,
+        "falsifiable": 0.8,
+        "sourced": 0.9,
+        "freshness": 0.4
+      }
+    },
+    {
+      "id": "CONSCIOUSNESS",
+      "realm": "Human Neuroscience",
+      "name": "Hard problem of consciousness",
+      "status": "KILLED",
+      "score": 0.0,
+      "penalty": 1.0,
+      "kill_reason": "KILLED \u2014 archive refused. Do not smuggle via NCC 'patches'.",
+      "overlap": "Refused.",
+      "source": "archive control",
+      "claim": "Archive-refused. Not scored as PPC.",
+      "discriminator": "None.",
+      "sense": "\u2014",
+      "operators": {
+        "not_prior": 0.0,
+        "pipeline_intact": 0.0,
+        "unobservable_dof": 0.0,
+        "majority_lost": 0.0,
+        "falsifiable": 0.0,
+        "sourced": 0.0,
+        "freshness": 0.0
+      }
+    }
+  ],
+  "epc_iterate": [
+    {
+      "name": "MW IMF \u2192 z\u22735 galaxies",
+      "home_domain": "Milky Way / z~0.7 massive quiescent",
+      "foreign_domain": "JWST early galaxies",
+      "status": "PENALIZED",
+      "score": 14.4,
+      "why": "Weak EPC."
+    },
+    {
+      "name": "Human phonology \u2192 sperm-whale codas",
+      "home_domain": "human speech",
+      "foreign_domain": "Physeter macrocephalus click trains",
+      "status": "PENALIZED",
+      "score": 11.4,
+      "why": "Weak EPC."
+    },
+    {
+      "name": "Coleoid sentience battery \u2192 nautilus",
+      "home_domain": "octopus/cuttlefish",
+      "foreign_domain": "Nautilus",
+      "status": "PENALIZED",
+      "score": 10.98,
+      "why": "Field already owns 'the prior was exported' as the literature's object."
+    },
+    {
+      "name": "Iron melting curve \u2192 inner core temperature",
+      "home_domain": "diamond-anvil geometry A",
+      "foreign_domain": "outer-core dynamo energy budget",
+      "status": "PENALIZED",
+      "score": 10.16,
+      "why": "Weak EPC."
+    }
+  ],
+  "mimic_gate": [
+    {
+      "name": "Dark dimension (Obied/Vafa/Bedroya/Wu)",
+      "verdict": "MIMIC_LEANING",
+      "why": "Independent probes have been run; unique hits are too few to promote the patch.",
+      "unique_predictions": [
+        "specific w(z) shape not mimicable by w0wa",
+        "DM coupling scale visible in structure growth (S8) with opposite sign to w0wa",
+        "a compact-dimension length that is independently constrained by tower of Kaluza-Klein modes"
+      ],
+      "mimicable_by_existing_dof": 0.72,
+      "independent_probes": 1,
+      "unique_probe_hits": 0,
+      "hit_rate": 0.0,
+      "pipeline_still_lcdm": true
+    },
+    {
+      "name": "Early dark energy as H0 patch",
+      "verdict": "MIMIC",
+      "why": "Existing degrees of freedom can reproduce the residual. Patch is not a successor.",
+      "unique_predictions": [
+        "CMB high-ell residuals distinct from Neff",
+        "does not worsen S8"
+      ],
+      "mimicable_by_existing_dof": 0.85,
+      "independent_probes": 2,
+      "unique_probe_hits": 0,
+      "hit_rate": 0.0,
+      "pipeline_still_lcdm": true
+    },
+    {
+      "name": "Pop III mixed-mass candidate threshold (>25% metal-free)",
+      "verdict": "UNTESTED_PATCH",
+      "why": "Unique predictions are named but not yet run. Default: treat as PPC until a unique probe fires.",
+      "unique_predictions": [
+        "zero-metal He II clump with no AGN mimic and no associated metal lines"
+      ],
+      "mimicable_by_existing_dof": 0.6,
+      "independent_probes": 0,
+      "unique_probe_hits": 0,
+      "hit_rate": 0.0,
+      "pipeline_still_lcdm": true
+    },
+    {
+      "name": "Bottom-heavy IMF as JWST-mass patch",
+      "verdict": "PATCH_HOLDING",
+      "why": "Unique hits, but data are still reduced through the old coordinate. PPC still holds.",
+      "unique_predictions": [
+        "direct spectroscopic dwarf-star signatures at z~0.7 descendants"
+      ],
+      "mimicable_by_existing_dof": 0.35,
+      "independent_probes": 1,
+      "unique_probe_hits": 1,
+      "hit_rate": 1.0,
+      "pipeline_still_lcdm": true
+    }
+  ],
+  "prior_classes_subtracted": 13,
+  "zero_controls": [
+    "nodule dark oxygen (Sweetman 2024 + Editor's Note 8 Apr 2026) \u2014 FAC+TAC, do not load-bear",
+    "magnetoreceptor cell \u2014 TAC",
+    "inner-core state as NCR primary \u2014 do not reclaim as NCR; may be scored as PPC only if the move is a patch parameter",
+    "Hubble tension as FAC primary \u2014 do not reclaim the tension; patches *to* the tension may be PPC",
+    "dark matter / dark energy identity \u2014 TAC",
+    "consciousness \u2014 archive-refused",
+    "universal dark-fraction law \u2014 killed JAC",
+    "UPE-as-communication \u2014 killed",
+    "wood-wide web Type I \u2014 IOA",
+    "K2-18b DMS-as-life",
+    "Cry4 in-vitro to heading \u2014 IOA Type III",
+    "QG as solution to H0",
+    "Cosmic-Bio Resonance / Dark Biosphere \u2014 not reclaimed",
+    "hadal Animalia incerta sedis \u2014 DIC primary, not PPC",
+    "ice-core archive \u2014 DIC secondary, not PPC"
+  ],
+  "hygiene": "Scores are a classification heuristic, not measurements of nature. Nothing here is a new particle, a new organism, or a proved mechanism. Copyright may protect this expression. It does not confer scientific priority, patent rights, or validation of any natural hypothesis."
+}
